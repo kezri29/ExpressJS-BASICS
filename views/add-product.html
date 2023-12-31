@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navi">
+            <nav>
+                <ul>
+                    <li><a href="/">Shop</a></li>
+                    <li><a href="http://localhost:3000/admin/add-product">Add Product</a></li>
+                    <!-- <li><a href="http://localhost:3000/admin/store-product">Store Product</a></li> -->
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="formi">
+            <form action="http://localhost:3000/admin/store-product" method="POST">
+                <input type="text" name="title">
+                <button type="submit">Add a product</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
